@@ -1,1 +1,148 @@
-<mxfile host="app.diagrams.net" modified="2021-08-20T05:58:49.977Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" version="14.9.8" etag="jjyZAqY8W_yGNGWj7yzF" type="github"><diagram id="rBI-JS6YzxX-g0grUbNi">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-20T05:59:51.195Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="VZcy_Kxafq6BX6_igfF_" version="14.9.8" type="github">
+  <diagram id="rBI-JS6YzxX-g0grUbNi" name="Page-1">
+    <mxGraphModel dx="1422" dy="-423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="J29Bsara_2gS42sg9U0T-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=14;" edge="1" parent="1" source="J29Bsara_2gS42sg9U0T-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370.5" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-2" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Comic Sans MS;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320.5" y="1200" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=14;" edge="1" parent="1" source="J29Bsara_2gS42sg9U0T-6" target="J29Bsara_2gS42sg9U0T-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=14;" edge="1" parent="1" source="J29Bsara_2gS42sg9U0T-6" target="J29Bsara_2gS42sg9U0T-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-5" value="insert success" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="J29Bsara_2gS42sg9U0T-4">
+          <mxGeometry x="0.5388" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-6" value="shixun_course_chapter" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontFamily=Comic Sans MS;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1360" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=14;" edge="1" parent="1" source="J29Bsara_2gS42sg9U0T-8" target="J29Bsara_2gS42sg9U0T-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-8" value="chapter记录列表chapterList" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="475" y="1620" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=14;" edge="1" parent="1" source="J29Bsara_2gS42sg9U0T-10" target="J29Bsara_2gS42sg9U0T-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-10" value="chapter in chapterList" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="366" y="1750" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=14;" edge="1" parent="1" source="J29Bsara_2gS42sg9U0T-13" target="J29Bsara_2gS42sg9U0T-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-12" value="insert success" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="J29Bsara_2gS42sg9U0T-11">
+          <mxGeometry x="-0.1585" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-13" value="shixun_course" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontFamily=Comic Sans MS;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1360" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=14;" edge="1" parent="1" source="J29Bsara_2gS42sg9U0T-16" target="J29Bsara_2gS42sg9U0T-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=14;" edge="1" parent="1" source="J29Bsara_2gS42sg9U0T-16" target="J29Bsara_2gS42sg9U0T-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-16" value="开启事务tx" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="310.5" y="1420" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=14;" edge="1" parent="1" source="J29Bsara_2gS42sg9U0T-22" target="J29Bsara_2gS42sg9U0T-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-18" value="search" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="J29Bsara_2gS42sg9U0T-17">
+          <mxGeometry x="0.1621" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=14;" edge="1" parent="1" source="J29Bsara_2gS42sg9U0T-22" target="J29Bsara_2gS42sg9U0T-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-20" value="search" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="J29Bsara_2gS42sg9U0T-19">
+          <mxGeometry x="0.1504" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=14;" edge="1" parent="1" source="J29Bsara_2gS42sg9U0T-22" target="J29Bsara_2gS42sg9U0T-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-22" value="&lt;span&gt;根据course_id查询课程信息&lt;br&gt;和章节信息&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Comic Sans MS;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="267.75" y="1280" width="205.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=14;" edge="1" parent="1" source="J29Bsara_2gS42sg9U0T-25" target="J29Bsara_2gS42sg9U0T-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-24" value="insert" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="J29Bsara_2gS42sg9U0T-23">
+          <mxGeometry x="0.0769" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-25" value="复制基础课基本信息，插入衍生课：course_copy_from: course_id" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="250.5" y="1520" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=14;" edge="1" parent="1" source="J29Bsara_2gS42sg9U0T-27" target="J29Bsara_2gS42sg9U0T-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-27" value="衍生课course_id" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="310.5" y="1620" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=14;" edge="1" parent="1" source="J29Bsara_2gS42sg9U0T-31" target="J29Bsara_2gS42sg9U0T-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-29" value="insert" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="J29Bsara_2gS42sg9U0T-28">
+          <mxGeometry x="-0.4116" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=14;" edge="1" parent="1" source="J29Bsara_2gS42sg9U0T-31" target="J29Bsara_2gS42sg9U0T-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-31" value="复制 chapter基础信息&lt;br&gt;course_id: 衍生课course_id&lt;br&gt;chapter_copy_from: 原始chapter_id" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="333.5" y="1860" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=14;" edge="1" parent="1" source="J29Bsara_2gS42sg9U0T-33" target="J29Bsara_2gS42sg9U0T-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-33" value="提交事务tx.commit()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="409" y="2060" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-34" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Comic Sans MS;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="418.5" y="2160" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=14;" edge="1" parent="1" source="J29Bsara_2gS42sg9U0T-37" target="J29Bsara_2gS42sg9U0T-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-36" value="insert" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="J29Bsara_2gS42sg9U0T-35">
+          <mxGeometry x="-0.2286" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-37" value="记录活动与衍生课course_id关系" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="409" y="1965" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=14;" edge="1" parent="1" source="J29Bsara_2gS42sg9U0T-40" target="J29Bsara_2gS42sg9U0T-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-39" value="insert success" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="J29Bsara_2gS42sg9U0T-38">
+          <mxGeometry x="0.0384" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J29Bsara_2gS42sg9U0T-40" value="shixun_acty_course" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontFamily=Comic Sans MS;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1960" width="189" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
